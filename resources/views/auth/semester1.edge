@@ -1,0 +1,90 @@
+@layout('layout.main')
+@section('body')
+  <div class="container mt-3">
+    <h2>Daftar Mata Kuliah</h2>
+    <table class="table table-bordered table-light table-striped mt-5">
+      <thead class="table-dark">
+        <tr>
+          <th colspan="5">Semester 1</th>
+        </tr>
+        <tr>
+          <th scope="col">No</th>
+          <th scope="col">Kode</th>
+          <th scope="col">Mata Kuliah</th>
+          <th scope="col">(K-P)</th>
+          <th scope="col">Soal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>MPA101</td>
+          <td>PENGANTAR KALKULUS
+            <br><em>INTRODUCTION TO CALCULUS</em></br>
+          </td>
+          <td>3 (3-0)</td>
+          <td><button type="submit" class="btn btn-info text-light">Lihat</button></td>
+        </tr>
+        <tr>
+        <th scope="row">2</th>
+        <td>MPA103</td>
+        <td>PENGANTAR FISIKA
+          <br><em>INTRODUCTION TO PHYSICS</em></br>
+        </td>
+        <td>3 (2-1)</td>
+        <td><button type="submit" class="btn btn-info text-light">Lihat</button></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>MKS103</td>
+        <td>PENDIDIKAN PANCASILA DAN KEWARGANEGARAAN
+          <br><em>PANCASILA AND CIVIC EDUCATION</em></br>
+        </td>
+        <td>2 (2-0)</td>
+        <td><button type="submit" class="btn btn-info text-light">Lihat</button></td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>MPA105</td>
+        <td>PENGANTAR KIMIA
+          <br><em>INTRODUCTION TO CHEMISTRY</em></br>
+        </td>
+        <td>3 (2-1)</td>
+        <td><button type="submit" class="btn btn-info text-light">Lihat</button></td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>MPA107</td>
+        <td>PENGANTAR BIOLOGI
+          <br><em>INTRODUCTION TO BIOLOGY</em></br>
+        </td>
+        <td>3 (2-1)</td>
+        <td><button type="submit" class="btn btn-info text-light">Lihat</button></td>
+      </tr>
+      </tbody>
+      <tr>
+        <th scope="row">6</th>
+        <td>MPAP01</td>
+        <td>PENGANTAR KALKULUS
+          <br><em>INTRODUCTION TO INFORMATION AND COMMUNICATION TECHNOLOGY</em></br>
+        </td>
+        <td>2 (2-0)</td>
+        <td><button type="submit" class="btn btn-info text-light">Lihat</button></td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td>MKS106</td>
+        <td>PENGETAHUAN KEBENCANAAN DAN LINGKUNGAN
+          <br><em>DISASTER AND ENVIRONMENTAL STUDIES</em></br>
+        </td>
+        <td>2 (2-0)</td>
+        <td><button type="submit" class="btn btn-info text-light">Lihat</button></td>
+      </tr>
+      <tr>
+        <th colspan="3">Total</th>
+        <th>18 (15-3)</th>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+@endsection
