@@ -14,7 +14,7 @@
   <nav class="navbar nav-underline navbar-expand-lg navbar-light ps-3" style="background-color: #A3C7E9">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="C:\Users\LENOVO\BankSoal\public\img\logo.png" alt="" width="50" height="24">
+        <img src="/public/img/logo.png" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav me-auto mb-2 ms-4 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active fw-bold" style="color: #134F5C" aria-current="page" href="#">Beranda</a>
+            <a class="nav-link fw-bold" style="color: #134F5C" aria-current="page" href="/">Beranda</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle fw-bold" style="color: #134F5C" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,7 +39,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold" style="color: #134F5C" href="#">Upload Soal</a>
+            <a class="nav-link fw-bold" style="color: #134F5C" href="/login">Upload Soal</a>
           </li>
         </ul>
         <ul class="navbar-nav me-4 justify-content-end">
@@ -52,7 +52,7 @@
   </nav>
 
   <div class="container mt-5 mb-5">
-    @yield('container')
+    @!section('body')
   </div>
 
 </body>
