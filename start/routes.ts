@@ -32,3 +32,7 @@ Route.get('/semester1', async ({view}) => {
     return view.render('auth/semester1')
 })
 
+Route.get('/uploadSoal', async ({view}) => {
+    return view.render('auth/uploadSoal')
+})
+
