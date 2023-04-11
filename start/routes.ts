@@ -24,9 +24,8 @@ Route.get('/', async ({view}) => {
     return view.render('auth/beranda')
 })
 
-Route.get('/login', async ({view}) => {
-    return view.render('auth/login')
-})
+Route.get('/login', 'LoginController.index').as('login')
+Route.post('/login', 'LoginController.login').as('login.post')
 
 Route.get('/semester1', async ({view}) => {
     return view.render('auth/semester1')
