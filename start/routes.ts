@@ -35,3 +35,14 @@ Route.get('/uploadSoal', async ({view}) => {
     return view.render('auth/uploadSoal')
 })
 
+Route.get('/tableSoal', async ({view}) => {
+    return view.render('auth/tableSoal')
+})
+
+Route.get('/liatSoal', async ({view}) => {
+    return view.render('auth/liatSoal')
+})
+
+Route.get('/komentar', async ({view}) => {
+    return view.render('auth/komentar')
+})

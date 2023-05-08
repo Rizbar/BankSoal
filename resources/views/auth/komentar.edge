@@ -1,0 +1,20 @@
+@layout('layout.main')
+@section('body')
+    <a class="btn btn-secondary m-3" href="" role="button">kembali</a>
+    <div class="card my-5">
+        <div class="card-body">
+            <div class="container">
+                <h3 class="card-title">Komentar dan Jawaban</h3>
+                <hr>
+                    <label for="formFile" class="form-label">Pilih File:</label>
+                    <input class="form-control" type="file" id="formFile">
+
+                    <label for="formFile" class="form-label mt-3">Komentar</label>
+                    <input class="form-control" type="text" placeholder="Sudah Bagus" aria-label="default input">
+
+                    <button type="submit" class="btn btn-info text-light mt-3">Upload</button>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
